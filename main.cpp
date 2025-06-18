@@ -1,68 +1,50 @@
+// main.cpp
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
-#include "tigl.h"
-#include <glm/gtc/matrix_transform.hpp>
-using tigl::Vertex;
+#include "App.h"
 
-#pragma comment(lib, "glfw3.lib")
-#pragma comment(lib, "glew32s.lib")
-#pragma comment(lib, "opengl32.lib")
-
-GLFWwindow* window;
-
-void init();
-void update();
-void draw();
-
-int main(void)
+int main()
 {
     if (!glfwInit())
-        throw "Could not initialize glwf";
-    window = glfwCreateWindow(1400, 800, "Hello World", NULL, NULL);
+        return -1;
+
+    GLFWwindow* window = glfwCreateWindow(1400, 800, "Traffic Simulation", nullptr, nullptr);
     if (!window)
     {
         glfwTerminate();
-        throw "Could not initialize glwf";
+        return -1;
     }
+
     glfwMakeContextCurrent(window);
+	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED); 
 
-    tigl::init();
-
-    init();
-
-	while (!glfwWindowShouldClose(window))
-	{
-		update();
-		draw();
-		glfwSwapBuffers(window);
-		glfwPollEvents();
-	}
-
-	glfwTerminate();
+    glfwSetCursorPosCallback(window, [](GLFWwindow* window, double xpos, double ypos) {
+        App* app = static_cast<App*>(glfwGetWindowUserPointer(window));
+        if (app) app->camera.processMouse((float)xpos, (float)ypos);
+        });
 
 
-    return 0;
-}
+    App app;
+	glfwSetWindowUserPointer(window, &app); 
 
+    app.init();
+    glewInit();
 
-void init()
-{
-    glfwSetKeyCallback(window, [](GLFWwindow* window, int key, int scancode, int action, int mods)
+    float lastTime = (float)glfwGetTime();
+
+    while (!glfwWindowShouldClose(window))
     {
-        if (key == GLFW_KEY_ESCAPE)
-            glfwSetWindowShouldClose(window, true);
-    });
+        float now = (float)glfwGetTime();
+        float deltaTime = now - lastTime;
+        lastTime = now;
 
-}
+        app.update(deltaTime);
+        app.draw();
 
+        glfwSwapBuffers(window);
+        glfwPollEvents();
+    }
 
-void update()
-{
-
-}
-
-void draw()
-{
-    glClearColor(0.3f, 0.4f, 0.6f, 1.0f);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glfwTerminate();
+    return 0;
 }
