@@ -29,8 +29,6 @@ void App::init() {
 
 	auto road = std::make_shared<Road>(glm::vec3(0, 0, 0), glm::vec2(10, 100));
 	sceneObjects.push_back(road);
-	// Later: voeg meer objecten toe aan de scene
-	// sceneObjects.push_back(std::make_shared<OtherObject>(...));
     auto car = std::make_shared<Car>(glm::vec3(0, 0.05f, 10));
     sceneObjects.push_back(car);
 
@@ -41,7 +39,6 @@ void App::update(float deltaTime) {
 		obj->update(deltaTime);
 	camera.update(deltaTime);
 	renderer->setViewMatrix(camera.getViewMatrix());
-    // Later: update logica per object
 }
 
 void App::draw() {

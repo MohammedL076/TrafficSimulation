@@ -10,7 +10,6 @@ Road::Road(const glm::vec3& position, const glm::vec2& size)
 }
 
 void Road::update(float) {
-    // niks nodig voor nu
 }
 
 void Road::draw() {
