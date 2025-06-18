@@ -10,22 +10,19 @@ App::App() {
 }
 
 void App::init() {
-
-    glfwSetKeyCallback(glfwGetCurrentContext(), [](GLFWwindow*, int key, int, int action, int) {
-        App* app = static_cast<App*>(glfwGetWindowUserPointer(glfwGetCurrentContext()));
-        if (app) app->camera.processKeyboard(key, action);
-        });
-
-    renderer->init();
+	GLFWwindow* window = glfwGetCurrentContext();
+	glfwSetWindowUserPointer(window, this); 
 
 	glfwSetKeyCallback(glfwGetCurrentContext(), [](GLFWwindow* window, int key, int, int action, int) {
-        if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS) 
-			glfwSetWindowShouldClose(window, true); 
+		if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS) {
+			glfwSetWindowShouldClose(window, true);
 			return;
-        
+		}
         App* app = static_cast<App*>(glfwGetWindowUserPointer(window));
 		if (app) app->camera.processKeyboard(key, action);
 		});
+
+    renderer->init();
 
 	auto road = std::make_shared<Road>(glm::vec3(0, 0, 0), glm::vec2(10, 100));
 	sceneObjects.push_back(road);
