@@ -107,7 +107,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)lib\glm;$(ProjectDir)lib\glfw-3.3.8\include;$(ProjectDir)lib\glew-2.1.0\include;$(SolutionDir)lib\glm;$(SolutionDir)lib\glew-2.1.0\include;$(SolutionDir)lib\glfw-3.3.8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)Header Files;$(ProjectDir)lib\glm;$(ProjectDir)lib\glfw-3.3.8\include;$(ProjectDir)lib\glew-2.1.0\include;$(SolutionDir)lib\glm;$(SolutionDir)lib\glew-2.1.0\include;$(SolutionDir)lib\glfw-3.3.8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -157,22 +157,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="App.cpp" />
-    <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="Car.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Renderer.cpp" />
-    <ClCompile Include="Road.cpp" />
-    <ClCompile Include="tigl.cpp" />
+    <ClCompile Include="Source Files\App.cpp" />
+    <ClCompile Include="Source Files\Camera.cpp" />
+    <ClCompile Include="Source Files\CarControllerComponent.cpp" />
+    <ClCompile Include="Source Files\EntityObject.cpp" />
+    <ClCompile Include="Source Files\main.cpp" />
+    <ClCompile Include="Source Files\ModelLoader.cpp" />
+    <ClCompile Include="Source Files\RenderComponent.cpp" />
+    <ClCompile Include="Source Files\Renderer.cpp" />
+    <ClCompile Include="Source Files\Road.cpp" />
+    <ClCompile Include="Source Files\StoplightComponent.cpp" />
+    <ClCompile Include="Source Files\tigl.cpp" />
+    <ClCompile Include="Source Files\TransformComponent.cpp" />
+    <ClCompile Include="Source Files\VehicleFactory.cpp" />
+    <ClCompile Include="Source Files\VehicleSpawner.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="App.h" />
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="Car.h" />
-    <ClInclude Include="Renderer.h" />
-    <ClInclude Include="Road.h" />
-    <ClInclude Include="SceneObject.h" />
-    <ClInclude Include="tigl.h" />
+    <ClInclude Include="Header Files\App.h" />
+    <ClInclude Include="Header Files\Camera.h" />
+    <ClInclude Include="Header Files\CarControllerComponent.h" />
+    <ClInclude Include="Header Files\Entity.h" />
+    <ClInclude Include="Header Files\EntityObject.h" />
+    <ClInclude Include="Header Files\MeshRendererComponent.h" />
+    <ClInclude Include="Header Files\ModelLoader.h" />
+    <ClInclude Include="Header Files\RenderComponent.h" />
+    <ClInclude Include="Header Files\Renderer.h" />
+    <ClInclude Include="Header Files\Road.h" />
+    <ClInclude Include="Header Files\SceneObject.h" />
+    <ClInclude Include="Header Files\stb_image.h" />
+    <ClInclude Include="Header Files\StoplightRendererComponent.h" />
+    <ClInclude Include="Header Files\StoplightComponent.h" />
+    <ClInclude Include="Header Files\tigl.h" />
+    <ClInclude Include="Header Files\Component.h" />
+    <ClInclude Include="Header Files\TransformComponent.h" />
+    <ClInclude Include="Header Files\VehicleFactory.h" />
+    <ClInclude Include="Header Files\VehicleSpawner.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

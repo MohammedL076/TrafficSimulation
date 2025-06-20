@@ -5,6 +5,9 @@
 #include "Renderer.h"
 #include "SceneObject.h"
 #include "Camera.h"
+#include "Entity.h"
+#include "TransformComponent.h"
+
 
 class App {
 public:
@@ -18,4 +21,5 @@ public:
 private:
     std::unique_ptr<Renderer> renderer;
     std::vector<std::shared_ptr<SceneObject>> sceneObjects;
+	std::vector<std::shared_ptr<Entity>> stoplightEntities;
 };

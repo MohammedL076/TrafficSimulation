@@ -1,7 +1,14 @@
-C:\Users\mlahl\source\repos\TrafficSimulation\App.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\App.obj
-C:\Users\mlahl\source\repos\TrafficSimulation\Camera.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\Camera.obj
-C:\Users\mlahl\source\repos\TrafficSimulation\Car.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\Car.obj
-C:\Users\mlahl\source\repos\TrafficSimulation\main.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\main.obj
-C:\Users\mlahl\source\repos\TrafficSimulation\Renderer.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\Renderer.obj
-C:\Users\mlahl\source\repos\TrafficSimulation\Road.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\Road.obj
-C:\Users\mlahl\source\repos\TrafficSimulation\tigl.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\tigl.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\App.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\App.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\Camera.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\Camera.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\CarControllerComponent.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\CarControllerComponent.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\EntityObject.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\EntityObject.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\main.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\main.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\ModelLoader.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\ModelLoader.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\RenderComponent.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\RenderComponent.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\Renderer.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\Renderer.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\Road.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\Road.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\StoplightComponent.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\StoplightComponent.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\tigl.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\tigl.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\TransformComponent.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\TransformComponent.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\VehicleFactory.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\VehicleFactory.obj
+C:\Users\mlahl\source\repos\TrafficSimulation\Source Files\VehicleSpawner.cpp;C:\Users\mlahl\source\repos\TrafficSimulation\CGR Template\x64\Debug\VehicleSpawner.obj
