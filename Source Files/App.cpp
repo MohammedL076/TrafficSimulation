@@ -45,7 +45,7 @@ void App::init() {
 
     for (float z = -100.0f; z <= 100.0f; z += 100.0f) {
         auto right = std::make_shared<Entity>();
-        right->addComponent<TransformComponent>(glm::vec3(3.5f, 0.05f, z));
+        right->addComponent<TransformComponent>(glm::vec3(4.5f, 0.05f, z));
         right->addComponent<StoplightComponent>();
         right->addComponent<StoplightRendererComponent>();
         stoplightEntities.push_back(right);
@@ -53,7 +53,7 @@ void App::init() {
 
         auto left = std::make_shared<Entity>();
         left->addComponent<TransformComponent>(
-            glm::vec3(-3.5f, 0.05f, z),
+            glm::vec3(-4.5f, 0.05f, z),
             glm::vec3(0, glm::radians(180.0f), 0),
             glm::vec3(1, 1, 1)
         );

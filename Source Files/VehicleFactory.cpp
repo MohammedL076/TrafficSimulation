@@ -21,7 +21,7 @@ std::shared_ptr<Entity> VehicleFactory::createCarEntity(
         sceneObjects,
         car);
     controller->setDirection(direction);
-    controller->setSpeed(5.0f);
+    controller->setSpeed(10.0f);
     return car;
 }
 
@@ -40,7 +40,7 @@ std::shared_ptr<Entity> VehicleFactory::createBusEntity(
         sceneObjects,
         bus);
     controller->setDirection(direction);
-    controller->setSpeed(3.5f);
+    controller->setSpeed(6.0f);
     return bus;
 }
 
