@@ -193,6 +193,10 @@
     <ClInclude Include="Header Files\VehicleFactory.h" />
     <ClInclude Include="Header Files\VehicleSpawner.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\lighting.frag" />
+    <None Include="shaders\lighting.vert" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

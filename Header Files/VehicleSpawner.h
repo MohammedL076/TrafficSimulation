@@ -14,7 +14,8 @@ public:
         const std::vector<std::shared_ptr<Entity>>& stoplights,
         glm::vec3 spawnPosition,
         float direction,
-        std::shared_ptr<Model> carModel
+        std::shared_ptr<Model> carModel,
+        std::shared_ptr<Model> busModel
     );
 
     void update(float deltaTime) override;
@@ -24,6 +25,7 @@ private:
     std::vector<std::shared_ptr<SceneObject>>& sceneObjects;
     std::vector<std::shared_ptr<Entity>> stoplights;
     std::shared_ptr<Model> carModel;
+    std::shared_ptr<Model> busModel;
 
     glm::vec3 spawnPosition; 
     float direction;          

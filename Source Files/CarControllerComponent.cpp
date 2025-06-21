@@ -16,21 +16,26 @@ void CarControllerComponent::update(float deltaTime) {
     if (!stoplight || !stoplightTransform) return;
 
     float stopZ = stoplightTransform->position.z;
+    float carLength = 4.0f;
+    float carFront = transform->position.z + (direction * carLength * 0.5f);
 
-    bool approaching = (direction < 0 && transform->position.z > stopZ) ||
-        (direction > 0 && transform->position.z < stopZ);
+    bool approaching = (direction < 0 && carFront > stopZ) ||
+        (direction > 0 && carFront < stopZ);
 
     if (approaching) {
         if (stoplight->getState() == StoplightComponent::State::Red ||
             stoplight->getState() == StoplightComponent::State::Orange ||
-            isVehicleAhead(5.0f)) { 
-            return; 
+            isVehicleAhead(2.5f)) { 
+            return;
         }
     }
     transform->position.z += direction * speed * deltaTime;
 }
 
 bool CarControllerComponent::isVehicleAhead(float safeDistance) {
+    float carLength = 4.0f;
+    float myFront = transform->position.z + (direction * carLength * 0.5f);
+
     for (const auto& obj : sceneObjects) {
         auto entityObj = std::dynamic_pointer_cast<EntityObject>(obj);
         if (!entityObj) continue;
@@ -41,11 +46,16 @@ bool CarControllerComponent::isVehicleAhead(float safeDistance) {
         auto otherTransform = other->getComponent<TransformComponent>();
         if (!otherTransform) continue;
 
-        if (std::abs(otherTransform->position.x - transform->position.x) < 0.1f) {
-            float dz = otherTransform->position.z - transform->position.z;
+        float otherLength = 4.0f;
+        float otherBack = otherTransform->position.z - (direction * otherLength * 0.5f);
 
-            if ((direction < 0 && dz < 0 && std::abs(dz) < safeDistance) ||
-                (direction > 0 && dz > 0 && std::abs(dz) < safeDistance)) {
+        if (std::abs(otherTransform->position.x - transform->position.x) < 0.1f) {
+            float dz = otherBack - myFront;
+            auto otherController = other->getComponent<CarControllerComponent>();
+            bool otherStopped = otherController && otherController->speed < 0.1f;
+            if (((direction < 0 && dz < 0 && std::abs(dz) < safeDistance) ||
+                (direction > 0 && dz > 0 && std::abs(dz) < safeDistance))
+                && otherStopped) {
                 return true;
             }
         }
@@ -77,7 +87,6 @@ std::shared_ptr<Entity> CarControllerComponent::findNearestStoplight() {
             }
         }
     }
-
     return closest;
 }
 

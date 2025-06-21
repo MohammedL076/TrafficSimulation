@@ -38,22 +38,31 @@ bool ModelLoader::load(const std::string& filename, Model& model)
 			iss >> tex.x >> tex.y;
 			model.texcoords.push_back(tex);
 		}
+		else if (prefix == "vn") {
+			glm::vec3 normal;
+			iss >> normal.x >> normal.y >> normal.z;
+			model.normals.push_back(normal);
+		}
+
 		else if (prefix == "f") {
 			// Face (group of vertex/texcoord indices)
 			Face face;
 			std::string vertexStr;
 			while (iss >> vertexStr) {
 				std::stringstream vertexStream(vertexStr);
-				std::string vStr, vtStr;
+				std::string vStr, vtStr, vnStr;
 
 				std::getline(vertexStream, vStr, '/');
 				std::getline(vertexStream, vtStr, '/');
+				std::getline(vertexStream, vnStr, '/');
 
 				int vIndex = vStr.empty() ? -1 : std::stoi(vStr) - 1;
 				int vtIndex = vtStr.empty() ? -1 : std::stoi(vtStr) - 1;
+				int vnIndex = vnStr.empty() ? -1 : std::stoi(vnStr) - 1;
 
-				face.vertices.push_back({ vIndex, vtIndex });
+				face.vertices.push_back({ vIndex, vtIndex, vnIndex });  
 			}
+
 
 			if (face.vertices.size() >= 3) {
 				model.faces.push_back(face);

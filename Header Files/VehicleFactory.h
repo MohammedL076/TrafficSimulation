@@ -21,7 +21,8 @@ public:
         const glm::vec3& position,
         float direction,
         const std::vector<std::shared_ptr<Entity>>& stoplights,
-        const std::vector<std::shared_ptr<SceneObject>>& sceneObjects);
+        const std::vector<std::shared_ptr<SceneObject>>& sceneObjects,
+        std::shared_ptr<Model> busModel);
 
     static std::shared_ptr<Entity> getNearestStoplight(
         const glm::vec3& pos,

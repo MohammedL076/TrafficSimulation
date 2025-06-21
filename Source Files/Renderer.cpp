@@ -1,4 +1,6 @@
 #include "Renderer.h"
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
 #include "tigl.h"
 #include <glm/gtc/matrix_transform.hpp>
 
@@ -9,11 +11,13 @@ void Renderer::init() {
 
     projectionMatrix = glm::perspective(glm::radians(45.0f), 1400.0f / 800.0f, 0.1f, 1000.0f);
     viewMatrix = glm::lookAt(
-        glm::vec3(0, 20, 40),   
-        glm::vec3(0, 0, 0),     
-        glm::vec3(0, 1, 0)      
+        glm::vec3(0, 20, 40),
+        glm::vec3(0, 0, 0),
+        glm::vec3(0, 1, 0)
     );
 }
+
+
 
 void Renderer::beginDraw() {
 
@@ -23,6 +27,17 @@ void Renderer::beginDraw() {
 
     shader->setProjectionMatrix(projectionMatrix);
     shader->setViewMatrix(viewMatrix);
+
+    shader->enableLighting(true);
+    shader->setLightCount(1);
+    shader->setLightDirectional(0, true);
+    shader->setLightPosition(0, glm::vec3(-1.0f, -1.0f, -1.0f)); 
+    shader->setLightAmbient(0, glm::vec3(0.1f));  
+    shader->setLightDiffuse(0, glm::vec3(1.0f, 1.0f, 1.0f));   
+    shader->setLightSpecular(0, glm::vec3(1.0f, 1.0f, 1.0f));  
+
+    shader->setShinyness(128.0f); 
+
 }
 
 void Renderer::endDraw() {

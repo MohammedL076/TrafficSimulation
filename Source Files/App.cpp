@@ -63,19 +63,24 @@ void App::init() {
         sceneObjects.push_back(std::make_shared<EntityObject>(left));
     }
 
+    auto busModel = std::make_shared<Model>();
+    if (!ModelLoader::load("Resource Files/Vehicles/low-poly/Bus-Model/bus.obj", *busModel)) {
+        std::cerr << "Kon het bus-model niet laden!" << std::endl;
+    }
     auto carModel = std::make_shared<Model>();
-    if (!ModelLoader::load("Resource Files/Car/low-poly/Car-Model/Car.obj", *carModel)) {
+    if (!ModelLoader::load("Resource Files/Vehicles/low-poly/Car-Model/Car.obj", *carModel)) {
         std::cerr << "Kon het auto-model niet laden!" << std::endl;
     }
 
     auto rightSpawner = std::make_shared<VehicleSpawner>(
-        sceneObjects, stoplightEntities, glm::vec3(3, 0.1f, 270), -1.0f, carModel);
+        sceneObjects, stoplightEntities, glm::vec3(3, 0.1f, 270), -1.0f, carModel, busModel);
     auto leftSpawner = std::make_shared<VehicleSpawner>(
-        sceneObjects, stoplightEntities, glm::vec3(-3, 0.1f, -270), 1.0f, carModel);
+        sceneObjects, stoplightEntities, glm::vec3(-3, 0.1f, -270), 1.0f, carModel, busModel);
     sceneObjects.push_back(rightSpawner);
     sceneObjects.push_back(leftSpawner);
 
-    sceneObjects.push_back(std::make_shared<Road>(glm::vec3(0, 0, 0), glm::vec2(10, 500)));
+    sceneObjects.push_back(std::make_shared<Road>(glm::vec3(0, 0, 0), glm::vec2(10, 750)));
+
 }
 
 

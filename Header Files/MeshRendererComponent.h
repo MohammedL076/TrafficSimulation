@@ -1,7 +1,7 @@
 #pragma once
 #include "Component.h"
 #include "TransformComponent.h"
-#include "ModelLoader.h" 
+#include "ModelLoader.h"
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <glm/gtc/matrix_transform.hpp>
@@ -24,28 +24,41 @@ public:
             int matIndex = (i < model->faceMaterialIndices.size()) ? model->faceMaterialIndices[i] : -1;
             const Material* mat = (matIndex >= 0 && matIndex < (int)model->materials.size()) ? &model->materials[matIndex] : nullptr;
 
-            if (mat && mat->textureID) {
+            bool hasTexture = mat && mat->textureID;
+            if (hasTexture) {
                 shader->enableTexture(true);
                 glBindTexture(GL_TEXTURE_2D, mat->textureID);
             }
             else {
                 shader->enableTexture(false);
                 shader->enableColor(true);
-                glm::vec4 color = mat ? glm::vec4(mat->diffuse, 1.0f) : glm::vec4(0.8f, 0.8f, 0.8f, 1.0f);
             }
 
             tigl::begin(GL_POLYGON);
             for (const auto& fv : model->faces[i].vertices) {
-                glm::vec2 uv = (fv.texcoordIndex >= 0 && fv.texcoordIndex < (int)model->texcoords.size())
-                    ? model->texcoords[fv.texcoordIndex]
-                    : glm::vec2(0, 0);
                 glm::vec3 pos = (fv.vertexIndex >= 0 && fv.vertexIndex < (int)model->vertices.size())
                     ? model->vertices[fv.vertexIndex]
                     : glm::vec3(0, 0, 0);
-                tigl::addVertex(Vertex::PT(pos, uv));
+
+                glm::vec3 normal = glm::vec3(0, 1, 0); 
+                if (fv.normalIndex >= 0 && fv.normalIndex < (int)model->normals.size()) {
+                    normal = model->normals[fv.normalIndex];
+                }
+
+                if (hasTexture) {
+                    glm::vec2 uv = (fv.texcoordIndex >= 0 && fv.texcoordIndex < (int)model->texcoords.size())
+                        ? model->texcoords[fv.texcoordIndex]
+                        : glm::vec2(0, 0);
+                    tigl::addVertex(Vertex::PTN(pos, uv, normal));
+                }
+                else {
+                    glm::vec4 color = mat ? glm::vec4(mat->diffuse, 1.0f) : glm::vec4(1.0f, 1.0f, 0.0f, 1.0f);
+                    tigl::addVertex(Vertex::PCN(pos, color, normal));
+                }
             }
             tigl::end();
         }
+
         shader->enableTexture(false);
         shader->enableColor(false);
     }

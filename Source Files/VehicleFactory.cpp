@@ -13,8 +13,11 @@ std::shared_ptr<Entity> VehicleFactory::createCarEntity(
     std::shared_ptr<Model> carModel)
 {
     auto car = std::make_shared<Entity>();
-    auto transform = car->addComponent<TransformComponent>(position);
-    auto mesh = car->addComponent<MeshRendererComponent>(transform, carModel);
+    glm::vec3 rotation = (direction < 0)
+        ? glm::vec3(0, glm::radians(180.0f), 0)
+        : glm::vec3(0, 0, 0);
+    auto transform = car->addComponent<TransformComponent>(position, rotation);
+    car->addComponent<MeshRendererComponent>(transform, carModel);
 
     auto controller = car->addComponent<CarControllerComponent>(transform,
         getNearestStoplight(position, direction, stoplights),
@@ -25,15 +28,22 @@ std::shared_ptr<Entity> VehicleFactory::createCarEntity(
     return car;
 }
 
+
 std::shared_ptr<Entity> VehicleFactory::createBusEntity(
     const glm::vec3& position,
     float direction,
     const std::vector<std::shared_ptr<Entity>>& stoplights,
-    const std::vector<std::shared_ptr<SceneObject>>& sceneObjects)
+    const std::vector<std::shared_ptr<SceneObject>>& sceneObjects,
+    std::shared_ptr<Model> busModel)
 {
     auto bus = std::make_shared<Entity>();
-    auto transform = bus->addComponent<TransformComponent>(position, glm::vec3(0), glm::vec3(1.5f, 1.0f, 2.0f));
-    bus->addComponent<RenderComponent>(glm::vec4(1, 1, 0, 1)); 
+    float baseYaw = glm::radians(90.0f);
+    glm::vec3 rotation = (direction < 0)
+        ? glm::vec3(0, baseYaw, 0)          
+        : glm::vec3(0, glm::radians(-90.0f), 0); 
+
+    auto transform = bus->addComponent<TransformComponent>(position, rotation);
+    bus->addComponent<MeshRendererComponent>(transform, busModel);
 
     auto controller = bus->addComponent<CarControllerComponent>(transform,
         getNearestStoplight(position, direction, stoplights),
@@ -42,6 +52,7 @@ std::shared_ptr<Entity> VehicleFactory::createBusEntity(
     controller->setDirection(direction);
     controller->setSpeed(6.0f);
     return bus;
+
 }
 
 std::shared_ptr<Entity> VehicleFactory::getNearestStoplight(

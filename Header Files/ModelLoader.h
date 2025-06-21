@@ -17,6 +17,7 @@ struct Material {
 struct FaceVertex {
 	int vertexIndex;
 	int texcoordIndex;
+	int normalIndex;
 };
 
 struct Face {
@@ -29,6 +30,7 @@ struct Model {
 	std::vector<Face> faces;
 	std::vector<int> faceMaterialIndices;
 	std::vector<Material> materials;
+	std::vector<glm::vec3> normals;
 };
 
 class ModelLoader {
