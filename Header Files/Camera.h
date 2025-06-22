@@ -10,6 +10,8 @@ public:
     float yaw, pitch;
     float lastX = 700, lastY = 400;
     bool firstMouse = true;
+	bool moveUp = false;
+	bool moveDown = false;
 
     void update(float deltaTime);
     void processKeyboard(int key, int action);

@@ -13,6 +13,8 @@ Camera::Camera()
 
 void Camera::update(float deltaTime) {
     glm::vec3 moveDir(0.0f);
+	if (moveUp) moveDir += up;
+	if (moveDown) moveDir -= up;
     
     glm::vec3 flatFront = glm::normalize(glm::vec3(front.x, 0.0f, front.z));
 
@@ -32,6 +34,9 @@ void Camera::processKeyboard(int key, int action) {
     if (key == GLFW_KEY_S) moveBackward = pressed;
     if (key == GLFW_KEY_A) moveLeft = pressed;
     if (key == GLFW_KEY_D) moveRight = pressed;
+    if (key == GLFW_KEY_LEFT_CONTROL) moveDown = pressed;
+    if (key == GLFW_KEY_SPACE) moveUp = pressed;
+
 }
 
 glm::mat4 Camera::getViewMatrix() const {
