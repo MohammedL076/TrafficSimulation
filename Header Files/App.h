@@ -4,6 +4,7 @@
 #include <vector>
 #include "Renderer.h"
 #include "SceneObject.h"
+#include "ModelLoader.h"
 #include "Camera.h"
 #include "Entity.h"
 #include "TransformComponent.h"
