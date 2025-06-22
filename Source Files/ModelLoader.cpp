@@ -10,9 +10,9 @@ bool ModelLoader::load(const std::string& filename, Model& model)
 {
 	std::ifstream file(filename);
 	if (!file.is_open()) {
-		std::cerr << "Error: Could not open file " << filename << std::endl;
-		return false;
+		throw std::runtime_error("Kan modelbestand niet openen: " + filename);
 	}
+
 
 	std::string line;
 	std::string currentMaterial = "";
@@ -106,9 +106,9 @@ bool ModelLoader::loadMaterialFile(const std::string& mtlFilename, Model& model)
 {
 	std::ifstream file(mtlFilename);
 	if (!file.is_open()) {
-		std::cerr << "Error: Could not open material file " << mtlFilename << std::endl;
-		return false;
+		throw std::runtime_error("Kan modelbestand niet openen: " + mtlFilename);
 	}
+
 
 	std::string line;
 	Material currentMaterial;

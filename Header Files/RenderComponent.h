@@ -10,8 +10,9 @@ class RenderComponent : public Component {
 public:
 	RenderComponent(const glm::vec4& color);
 
-	void draw() override;
+	virtual void draw() = 0;
+	virtual ~RenderComponent() = default;
 
-private:
+protected:
 	glm::vec4 color;
 };

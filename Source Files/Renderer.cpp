@@ -3,6 +3,7 @@
 #include <GLFW/glfw3.h>
 #include "tigl.h"
 #include <glm/gtc/matrix_transform.hpp>
+#include <vector>
 
 using namespace tigl;
 
@@ -19,8 +20,7 @@ void Renderer::init() {
 
 
 
-void Renderer::beginDraw() {
-
+void Renderer::beginDraw(const std::vector<Streetlight>& lights) {
     glEnable(GL_DEPTH_TEST);
     glClearColor(0.3f, 0.4f, 0.6f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -28,16 +28,22 @@ void Renderer::beginDraw() {
     shader->setProjectionMatrix(projectionMatrix);
     shader->setViewMatrix(viewMatrix);
 
+    shader->enableLighting(true);   
+    shader->setLightCount((int)lights.size());  
+
+
     shader->enableLighting(true);
-    shader->setLightCount(1);
-    shader->setLightDirectional(0, true);
-    shader->setLightPosition(0, glm::vec3(-1.0f, -1.0f, -1.0f)); 
-    shader->setLightAmbient(0, glm::vec3(0.1f));  
-    shader->setLightDiffuse(0, glm::vec3(1.0f, 1.0f, 1.0f));   
-    shader->setLightSpecular(0, glm::vec3(1.0f, 1.0f, 1.0f));  
+    shader->setLightCount((int)lights.size());
 
-    shader->setShinyness(128.0f); 
+    for (int i = 0; i < lights.size(); ++i) {
+        shader->setLightPosition(i, lights[i].position);
+        shader->setLightAmbient(i, lights[i].color * 0.1f);
+        shader->setLightDiffuse(i, lights[i].color);
+        shader->setLightSpecular(i, glm::vec3(1.0f));
+        shader->setLightDirectional(i, false); 
+    }
 
+    shader->setShinyness(128.0f);
 }
 
 void Renderer::endDraw() {

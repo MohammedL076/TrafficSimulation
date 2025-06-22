@@ -1,9 +1,6 @@
 #include "StoplightComponent.h"
 #include <random>
-
-const float GREEN_DURATION = 25.0f;
-const float RED_DURATION = 20.0f;
-const float ORANGE_DURATION = 10.0f;
+#include "Constants.h"
 
 StoplightComponent::StoplightComponent() {
     static std::mt19937 rng(std::random_device{}());
@@ -14,8 +11,12 @@ StoplightComponent::StoplightComponent() {
 void StoplightComponent::update(float deltaTime) {
     timer += deltaTime;
 
-    const float totalCycleDuration = GREEN_DURATION + ORANGE_DURATION + RED_DURATION;
+    if (manualOverride) {
+        state = overrideState;
+        return;
+    }
 
+    const float totalCycleDuration = GREEN_DURATION + ORANGE_DURATION + RED_DURATION;
     float adjustedTime = fmod(timer + offset, totalCycleDuration);
 
     if (adjustedTime < GREEN_DURATION) {
@@ -33,3 +34,13 @@ void StoplightComponent::update(float deltaTime) {
 StoplightComponent::State StoplightComponent::getState() const {
     return state;
 }
+
+void StoplightComponent::setGreen(bool green) {
+    manualOverride = true;
+    overrideState = green ? State::Green : State::Red;
+}
+
+void StoplightComponent::clearManualOverride() {
+    manualOverride = false;
+}
+

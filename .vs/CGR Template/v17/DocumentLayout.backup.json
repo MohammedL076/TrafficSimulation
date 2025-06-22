@@ -3,40 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\MeshRendererComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\MeshRendererComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\ModelLoader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\ModelLoader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\ModelLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\ModelLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\RenderComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\RenderComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\RenderComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\RenderComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\App.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\UnitTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\UnitTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\UnitTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\UnitTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\unit_test_output.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:unit_test_output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\App.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\App.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\StreetlampRendererComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\StreetlampRendererComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\Constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\RenderComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\RenderComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\StoplightRendererComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\StoplightRendererComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\MeshRendererComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\MeshRendererComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\StoplightComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\StoplightComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\RenderComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\RenderComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\CarControllerComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -47,92 +67,96 @@
       "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\Component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\EntityObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\EntityObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\Road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\SceneObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\SceneObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\stb_image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\stb_image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\VehicleFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\VehicleFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\StoplightComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\StoplightComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\StoplightRendererComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\StoplightRendererComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\tigl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\tigl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\VehicleFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\VehicleFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\TransformComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\TransformComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\VehicleSpawner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\VehicleSpawner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\CarControllerComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\CarControllerComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\EntityObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\EntityObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\Road.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\Road.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\StoplightComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\StoplightComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\tigl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\tigl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\TransformComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\TransformComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\VehicleSpawner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\VehicleSpawner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Streetlight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\Streetlight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\VehicleFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\VehicleFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\VehicleSpawner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\VehicleSpawner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\Road.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\Road.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\EntityObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\EntityObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\VehicleSpawner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\VehicleSpawner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\tigl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\tigl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\stb_image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\stb_image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\SceneObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\SceneObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\Road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\ModelLoader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\ModelLoader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\EntityObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\EntityObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\ModelLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Header Files\\ModelLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\tigl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7ECF1BE-DB22-4BF7-BFF6-E3BF72691EE6}|CGR Template.vcxproj|solutionrelative:Source Files\\tigl.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,7 +166,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 43,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,33 +194,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 3,
+              "Title": "unit_test_output.txt",
+              "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\unit_test_output.txt",
+              "RelativeDocumentMoniker": "unit_test_output.txt",
+              "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\unit_test_output.txt",
+              "RelativeToolTip": "unit_test_output.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-22T01:30:37.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTest.h",
+              "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\UnitTest.h",
+              "RelativeDocumentMoniker": "Header Files\\UnitTest.h",
+              "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\UnitTest.h",
+              "RelativeToolTip": "Header Files\\UnitTest.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-22T01:18:23.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest.cpp",
+              "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\UnitTest.cpp",
+              "RelativeDocumentMoniker": "Source Files\\UnitTest.cpp",
+              "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\UnitTest.cpp",
+              "RelativeToolTip": "Source Files\\UnitTest.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-22T01:14:24.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Constants.h",
+              "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Constants.h",
+              "RelativeDocumentMoniker": "Header Files\\Constants.h",
+              "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Constants.h",
+              "RelativeToolTip": "Header Files\\Constants.h",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-22T00:45:36.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Streetlight.h",
+              "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Streetlight.h",
+              "RelativeDocumentMoniker": "Header Files\\Streetlight.h",
+              "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Streetlight.h",
+              "RelativeToolTip": "Header Files\\Streetlight.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-21T16:50:01.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StreetlampRendererComponent.h",
+              "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\StreetlampRendererComponent.h",
+              "RelativeDocumentMoniker": "Header Files\\StreetlampRendererComponent.h",
+              "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\StreetlampRendererComponent.h",
+              "RelativeToolTip": "Header Files\\StreetlampRendererComponent.h",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwC0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-21T15:58:36.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "VehicleSpawner.cpp",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\VehicleSpawner.cpp",
               "RelativeDocumentMoniker": "Source Files\\VehicleSpawner.cpp",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\VehicleSpawner.cpp",
               "RelativeToolTip": "Source Files\\VehicleSpawner.cpp",
-              "ViewState": "AgIAADcAAAAAAAAAAAAmwFIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-19T23:51:30.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 23,
               "Title": "VehicleFactory.cpp",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\VehicleFactory.cpp",
               "RelativeDocumentMoniker": "Source Files\\VehicleFactory.cpp",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\VehicleFactory.cpp",
               "RelativeToolTip": "Source Files\\VehicleFactory.cpp",
-              "ViewState": "AgIAADsAAAAAAAAAAAAmwFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-19T23:51:29.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 20,
               "Title": "TransformComponent.cpp",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\TransformComponent.cpp",
               "RelativeDocumentMoniker": "Source Files\\TransformComponent.cpp",
@@ -209,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "tigl.cpp",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\tigl.cpp",
               "RelativeDocumentMoniker": "Source Files\\tigl.cpp",
@@ -217,25 +319,24 @@
               "RelativeToolTip": "Source Files\\tigl.cpp",
               "ViewState": "AgIAAOYBAAAAAAAAAAAmwAECAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-19T23:51:26.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T23:51:26.952Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 12,
               "Title": "StoplightComponent.cpp",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\StoplightComponent.cpp",
               "RelativeDocumentMoniker": "Source Files\\StoplightComponent.cpp",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\StoplightComponent.cpp",
               "RelativeToolTip": "Source Files\\StoplightComponent.cpp",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-19T23:51:26.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 24,
               "Title": "Road.cpp",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\Road.cpp",
               "RelativeDocumentMoniker": "Source Files\\Road.cpp",
@@ -248,20 +349,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Renderer.cpp",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\Renderer.cpp",
               "RelativeDocumentMoniker": "Source Files\\Renderer.cpp",
-              "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\Renderer.cpp*",
-              "RelativeToolTip": "Source Files\\Renderer.cpp*",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwCEAAAA/AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\Renderer.cpp",
+              "RelativeToolTip": "Source Files\\Renderer.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-19T23:51:15.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "RenderComponent.cpp",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\RenderComponent.cpp",
               "RelativeDocumentMoniker": "Source Files\\RenderComponent.cpp",
@@ -274,13 +375,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 5,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\main.cpp",
               "RelativeDocumentMoniker": "Source Files\\main.cpp",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\main.cpp",
               "RelativeToolTip": "Source Files\\main.cpp",
-              "ViewState": "AgIAACMAAAAAAAAAAAAmwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-19T23:51:08.75Z",
               "EditorCaption": ""
@@ -293,27 +394,27 @@
               "RelativeDocumentMoniker": "Source Files\\EntityObject.cpp",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\EntityObject.cpp",
               "RelativeToolTip": "Source Files\\EntityObject.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-19T23:51:07.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 19,
               "Title": "CarControllerComponent.cpp",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\CarControllerComponent.cpp",
               "RelativeDocumentMoniker": "Source Files\\CarControllerComponent.cpp",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\CarControllerComponent.cpp",
               "RelativeToolTip": "Source Files\\CarControllerComponent.cpp",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAmwGEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAmwGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-19T23:51:05.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Camera.cpp",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\Camera.cpp",
               "RelativeDocumentMoniker": "Source Files\\Camera.cpp",
@@ -326,33 +427,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "VehicleSpawner.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\VehicleSpawner.h",
               "RelativeDocumentMoniker": "Header Files\\VehicleSpawner.h",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\VehicleSpawner.h",
               "RelativeToolTip": "Header Files\\VehicleSpawner.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-19T23:51:01.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 18,
               "Title": "TransformComponent.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\TransformComponent.h",
               "RelativeDocumentMoniker": "Header Files\\TransformComponent.h",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\TransformComponent.h",
               "RelativeToolTip": "Header Files\\TransformComponent.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-19T23:50:59.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 16,
               "Title": "VehicleFactory.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\VehicleFactory.h",
               "RelativeDocumentMoniker": "Header Files\\VehicleFactory.h",
@@ -365,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "tigl.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\tigl.h",
               "RelativeDocumentMoniker": "Header Files\\tigl.h",
@@ -378,13 +479,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 10,
               "Title": "StoplightRendererComponent.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\StoplightRendererComponent.h",
               "RelativeDocumentMoniker": "Header Files\\StoplightRendererComponent.h",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\StoplightRendererComponent.h",
               "RelativeToolTip": "Header Files\\StoplightRendererComponent.h",
-              "ViewState": "AgIAACAAAAAAAAAAAAAmwDsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-19T23:50:56.384Z",
               "EditorCaption": ""
@@ -397,14 +498,14 @@
               "RelativeDocumentMoniker": "Header Files\\StoplightComponent.h",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\StoplightComponent.h",
               "RelativeToolTip": "Header Files\\StoplightComponent.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-19T23:50:55.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "stb_image.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\stb_image.h",
               "RelativeDocumentMoniker": "Header Files\\stb_image.h",
@@ -417,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 30,
               "Title": "SceneObject.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\SceneObject.h",
               "RelativeDocumentMoniker": "Header Files\\SceneObject.h",
@@ -430,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 31,
               "Title": "Road.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Road.h",
               "RelativeDocumentMoniker": "Header Files\\Road.h",
@@ -443,20 +544,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 36,
               "Title": "Renderer.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Renderer.h",
               "RelativeDocumentMoniker": "Header Files\\Renderer.h",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Renderer.h",
               "RelativeToolTip": "Header Files\\Renderer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-19T23:50:50.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 37,
               "Title": "ModelLoader.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\ModelLoader.h",
               "RelativeDocumentMoniker": "Header Files\\ModelLoader.h",
@@ -464,38 +565,37 @@
               "RelativeToolTip": "Header Files\\ModelLoader.h",
               "ViewState": "AgIAAAUAAAAAAAAAAAAYwBMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-19T23:50:48.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T23:50:48.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "RenderComponent.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\RenderComponent.h",
               "RelativeDocumentMoniker": "Header Files\\RenderComponent.h",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\RenderComponent.h",
               "RelativeToolTip": "Header Files\\RenderComponent.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-19T23:50:46.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "MeshRendererComponent.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\MeshRendererComponent.h",
               "RelativeDocumentMoniker": "Header Files\\MeshRendererComponent.h",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\MeshRendererComponent.h",
               "RelativeToolTip": "Header Files\\MeshRendererComponent.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAmwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-19T23:50:45.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 34,
               "Title": "EntityObject.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\EntityObject.h",
               "RelativeDocumentMoniker": "Header Files\\EntityObject.h",
@@ -508,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 35,
               "Title": "Entity.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Entity.h",
               "RelativeDocumentMoniker": "Header Files\\Entity.h",
@@ -521,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Component.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Component.h",
               "RelativeDocumentMoniker": "Header Files\\Component.h",
@@ -534,20 +634,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "CarControllerComponent.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\CarControllerComponent.h",
               "RelativeDocumentMoniker": "Header Files\\CarControllerComponent.h",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\CarControllerComponent.h",
               "RelativeToolTip": "Header Files\\CarControllerComponent.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAmwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-19T23:50:41.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 32,
               "Title": "Camera.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\Camera.h",
               "RelativeDocumentMoniker": "Header Files\\Camera.h",
@@ -560,7 +660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 33,
               "Title": "ModelLoader.cpp",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\ModelLoader.cpp",
               "RelativeDocumentMoniker": "Source Files\\ModelLoader.cpp",
@@ -573,26 +673,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "App.cpp",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\App.cpp",
               "RelativeDocumentMoniker": "Source Files\\App.cpp",
-              "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\App.cpp",
-              "RelativeToolTip": "Source Files\\App.cpp",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAYwHAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Source Files\\App.cpp*",
+              "RelativeToolTip": "Source Files\\App.cpp*",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAmwKoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-19T23:49:07.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "App.h",
               "DocumentMoniker": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\App.h",
               "RelativeDocumentMoniker": "Header Files\\App.h",
               "ToolTip": "C:\\Users\\mlahl\\source\\repos\\TrafficSimulation\\Header Files\\App.h",
               "RelativeToolTip": "Header Files\\App.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-19T23:49:02.251Z",
               "EditorCaption": ""

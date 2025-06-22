@@ -9,10 +9,14 @@ public:
 
 	void update(float deltaTime) override;
 	State getState() const;
-
+	void setGreen(bool green);	
+	void clearManualOverride();
 private:
 	State state = State::Green;
 	float timer = 0.0f;
 	float switchInterval = 6.0f;
 	float offset = 0.0f;
+
+	bool manualOverride = false;
+	State overrideState;
 };

@@ -1,6 +1,7 @@
 #pragma once
 #include "Component.h"
 #include "TransformComponent.h"
+#include "RenderComponent.h"
 #include "ModelLoader.h"
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
@@ -8,10 +9,10 @@
 #include <memory>
 #include "tigl.h"
 
-class MeshRendererComponent : public Component {
+class MeshRendererComponent : public RenderComponent {
 public:
     MeshRendererComponent(std::shared_ptr<TransformComponent> transform, std::shared_ptr<Model> model)
-        : transform(transform), model(model) {
+        : RenderComponent(glm::vec4(1.0f, 0.9f, 0.0f, 1.0f)), transform(transform), model(model) {
     }
 
     void draw() override {

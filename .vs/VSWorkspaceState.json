@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Source Files"
   ],
-  "SelectedNode": "\\CGR Template.sln",
+  "SelectedNode": "\\Source Files\\Renderer.cpp",
   "PreviewInSolutionExplorer": false
 }

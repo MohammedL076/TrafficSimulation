@@ -49,6 +49,7 @@ std::shared_ptr<Entity> VehicleFactory::createBusEntity(
         getNearestStoplight(position, direction, stoplights),
         sceneObjects,
         bus);
+    controller->vehicleLength = 8.0f;
     controller->setDirection(direction);
     controller->setSpeed(6.0f);
     return bus;

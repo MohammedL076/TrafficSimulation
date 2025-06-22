@@ -107,7 +107,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)Header Files;$(ProjectDir)lib\glm;$(ProjectDir)lib\glfw-3.3.8\include;$(ProjectDir)lib\glew-2.1.0\include;$(SolutionDir)lib\glm;$(SolutionDir)lib\glew-2.1.0\include;$(SolutionDir)lib\glfw-3.3.8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\lib\imgui\backends;$(ProjectDir)\lib\imgui;$(ProjectDir)Header Files;$(ProjectDir)lib\glm;$(ProjectDir)lib\glfw-3.3.8\include;$(ProjectDir)lib\glew-2.1.0\include;$(SolutionDir)lib\glm;$(SolutionDir)lib\glew-2.1.0\include;$(SolutionDir)lib\glfw-3.3.8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -157,6 +157,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="lib\imgui\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="lib\imgui\backends\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="lib\imgui\imgui.cpp" />
+    <ClCompile Include="lib\imgui\imgui_demo.cpp" />
+    <ClCompile Include="lib\imgui\imgui_draw.cpp" />
+    <ClCompile Include="lib\imgui\imgui_tables.cpp" />
+    <ClCompile Include="lib\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="lib\imgui\misc\cpp\imgui_stdlib.cpp" />
     <ClCompile Include="Source Files\App.cpp" />
     <ClCompile Include="Source Files\Camera.cpp" />
     <ClCompile Include="Source Files\CarControllerComponent.cpp" />
@@ -169,6 +177,7 @@
     <ClCompile Include="Source Files\StoplightComponent.cpp" />
     <ClCompile Include="Source Files\tigl.cpp" />
     <ClCompile Include="Source Files\TransformComponent.cpp" />
+    <ClCompile Include="Source Files\UnitTest.cpp" />
     <ClCompile Include="Source Files\VehicleFactory.cpp" />
     <ClCompile Include="Source Files\VehicleSpawner.cpp" />
   </ItemGroup>
@@ -176,6 +185,7 @@
     <ClInclude Include="Header Files\App.h" />
     <ClInclude Include="Header Files\Camera.h" />
     <ClInclude Include="Header Files\CarControllerComponent.h" />
+    <ClInclude Include="Header Files\Constants.h" />
     <ClInclude Include="Header Files\Entity.h" />
     <ClInclude Include="Header Files\EntityObject.h" />
     <ClInclude Include="Header Files\MeshRendererComponent.h" />
@@ -187,15 +197,37 @@
     <ClInclude Include="Header Files\stb_image.h" />
     <ClInclude Include="Header Files\StoplightRendererComponent.h" />
     <ClInclude Include="Header Files\StoplightComponent.h" />
+    <ClInclude Include="Header Files\StreetlampRendererComponent.h" />
+    <ClInclude Include="Header Files\Streetlight.h" />
     <ClInclude Include="Header Files\tigl.h" />
     <ClInclude Include="Header Files\Component.h" />
     <ClInclude Include="Header Files\TransformComponent.h" />
+    <ClInclude Include="Header Files\UnitTest.h" />
     <ClInclude Include="Header Files\VehicleFactory.h" />
     <ClInclude Include="Header Files\VehicleSpawner.h" />
+    <ClInclude Include="lib\imgui\backends\imgui_impl_glfw.h" />
+    <ClInclude Include="lib\imgui\backends\imgui_impl_opengl3.h" />
+    <ClInclude Include="lib\imgui\backends\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="lib\imgui\imconfig.h" />
+    <ClInclude Include="lib\imgui\imgui.h" />
+    <ClInclude Include="lib\imgui\imgui_internal.h" />
+    <ClInclude Include="lib\imgui\imstb_rectpack.h" />
+    <ClInclude Include="lib\imgui\imstb_textedit.h" />
+    <ClInclude Include="lib\imgui\imstb_truetype.h" />
+    <ClInclude Include="lib\imgui\misc\cpp\imgui_stdlib.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="lib\imgui\.gitattributes" />
+    <None Include="lib\imgui\.gitignore" />
+    <None Include="lib\imgui\misc\debuggers\imgui.natstepfilter" />
     <None Include="shaders\lighting.frag" />
     <None Include="shaders\lighting.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="lib\imgui\LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="lib\imgui\misc\debuggers\imgui.natvis" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

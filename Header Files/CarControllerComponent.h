@@ -26,6 +26,9 @@ public:
     bool isVehicleAhead(float safeDistance);
     std::shared_ptr<Entity> findNearestStoplight(); 
 
+
+    float vehicleLength = 4.0f;
+
 private:
     std::shared_ptr<TransformComponent> transform;
     std::shared_ptr<Entity> stoplightEntity;
