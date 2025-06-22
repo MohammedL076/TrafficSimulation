@@ -103,15 +103,15 @@ void App::init() {
 	}
 
     auto rightSpawner = std::make_shared<VehicleSpawner>(
-        sceneObjects, stoplightEntities, glm::vec3(3, 0.1f, 270), -1.0f, carModel, busModel);
+        sceneObjects, stoplightEntities, glm::vec3(RIGHT_SPAWN_X, SPAWN_Y, RIGHT_SPAWN_Z), -1.0f, carModel, busModel);
     auto leftSpawner = std::make_shared<VehicleSpawner>(
-        sceneObjects, stoplightEntities, glm::vec3(-3, 0.1f, -270), 1.0f, carModel, busModel);
+        sceneObjects, stoplightEntities, glm::vec3(LEFT_SPAWN_X, SPAWN_Y, LEFT_SPAWN_Z), 1.0f, carModel, busModel);
     sceneObjects.push_back(rightSpawner);
     sceneObjects.push_back(leftSpawner);
 
     sceneObjects.push_back(std::make_shared<Road>(glm::vec3(0, 0, 0), glm::vec2(10, 750)));
 
-    for (float z = -300.0f; z <= 300.0f; z += STREETLAMP_INTERVAL) {
+    for (float z = STREETLAMP_START_Z; z <= STREETLAMP_END_Z; z += STREETLAMP_INTERVAL) {
         auto lamp = std::make_shared<Entity>();
         lamp->addComponent<TransformComponent>(glm::vec3(10.0f, 0.0f, z)); 
         lamp->addComponent<StreetlampRendererComponent>(glm::vec4(1.0f, 1.0f, 1.0f, 1.0f));
@@ -154,7 +154,21 @@ void App::update(float deltaTime) {
         testTimer = 0.0f;
     }
 
+    sceneObjects.erase(
+        std::remove_if(sceneObjects.begin(), sceneObjects.end(),
+            [](const std::shared_ptr<SceneObject>& obj) {
+                auto entityObj = std::dynamic_pointer_cast<EntityObject>(obj);
+                if (!entityObj) return false;
 
+                auto entity = entityObj->getEntity();
+                if (!entity->getComponent<CarControllerComponent>()) return false;
+
+                auto transform = entity->getComponent<TransformComponent>();
+                if (!transform) return false;
+
+                return std::abs(transform->position.z) > VEHICLE_DESPAWN_DISTANCE;
+            }),
+        sceneObjects.end());
 }
 
 
@@ -171,8 +185,8 @@ void App::draw() {
     ImGui_ImplGlfw_NewFrame();
     ImGui::NewFrame();
 
-    ImGui::SetNextWindowPos(ImVec2(10, 10), ImGuiCond_Always);
-    ImGui::SetNextWindowSize(ImVec2(200, 60), ImGuiCond_Always);
+    ImGui::SetNextWindowPos(ImVec2(IMGUI_WINDOW_POS_X, IMGUI_WINDOW_POS_Y), ImGuiCond_Always);
+    ImGui::SetNextWindowSize(ImVec2(IMGUI_WINDOW_WIDTH, IMGUI_WINDOW_HEIGHT), ImGuiCond_Always);
 
     ImGuiWindowFlags window_flags = ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize |
         ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoScrollbar |

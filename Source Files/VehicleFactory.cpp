@@ -3,6 +3,7 @@
 #include "MeshRendererComponent.h"
 #include "CarControllerComponent.h"
 #include "Entity.h"
+#include "Constants.h"
 #include "RenderComponent.h"
 
 std::shared_ptr<Entity> VehicleFactory::createCarEntity(
@@ -24,7 +25,7 @@ std::shared_ptr<Entity> VehicleFactory::createCarEntity(
         sceneObjects,
         car);
     controller->setDirection(direction);
-    controller->setSpeed(10.0f);
+    controller->setSpeed(CAR_SPEED);
     return car;
 }
 
@@ -49,9 +50,9 @@ std::shared_ptr<Entity> VehicleFactory::createBusEntity(
         getNearestStoplight(position, direction, stoplights),
         sceneObjects,
         bus);
-    controller->vehicleLength = 8.0f;
+    controller->vehicleLength = BUS_LENGTH;
     controller->setDirection(direction);
-    controller->setSpeed(6.0f);
+    controller->setSpeed(BUS_SPEED);
     return bus;
 
 }
